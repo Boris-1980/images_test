@@ -12,7 +12,7 @@ def index():
 
 # Добавляем конфигируацию для БД MySQL
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://<root>:<49166127a>@localhost/<dbname>'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://<root>:<_________>@localhost/<dbname>'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
